@@ -79,3 +79,30 @@ point_total = point_total + int(exercises_completed) * int(points_per_exercise)
 print point_total
 
 print "I got " + str(point_total) + " points!"
+
+
+
+"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""
+
+first_letter = "MONTY"[0]
+second_letter = "MONTY"[1]
+third_letter = "MONTY"[2]
+forth_letter = "MONTY"[3]
+fifth_letter = "MONTY"[4]
+
+print first_letter
+print second_letter
+print third_letter
+print forth_letter
+print fifth_letter
