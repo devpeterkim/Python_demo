@@ -44,7 +44,7 @@ while i < 50:
   i = i + 1
   
   
- #Countdown loop
+ #While Loop Countdown loop
   i = 100
 while i >= 0:
  if i > 0:
@@ -52,3 +52,46 @@ while i >= 0:
  if i == 0:
    print("Boom")
   i = i - 1
+  
+ #While loop + Else Countdown loop  
+  i = 100
+while i >= 0:
+  if i > 0:
+   print (i)
+  else:
+   print("Boom")
+  i = i - 1
+  
+  
+  
+  #Created Loop Function
+def loop():
+  i = 100
+  while i >= 0:
+    if i > 0:
+      print (i)
+    else:
+     print("Boom")
+    i = i - 1
+
+def Print_Out_Hello():
+  print ("Hello Wednesday")
+  
+  
+#Calling Hello Function 
+Print_Out_Hello()
+
+#Calling Loop Function
+loop()
+
+
+
+#For Loop Example 
+for number in range(101):
+  if number == 100:
+    print("Boom!")
+  else:
+    print(number)
+
+  
+  
