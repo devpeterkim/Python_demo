@@ -93,5 +93,13 @@ for number in range(101):
   else:
     print(number)
 
+#For Loop Function	
+def string_length(word)
+	count = 0
+	for letter in "Orange":
+		count = count + 1
+	return count
+
+print("Orange"[5])
   
   
