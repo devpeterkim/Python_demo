@@ -100,6 +100,9 @@ def string_length(word)
 		count = count + 1
 	return count
 
+#indexing - help you do search through a blog post 
+#-1 for last word 
+#[2:4] for between word
 print("Orange"[5])
   
   
