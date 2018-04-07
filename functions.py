@@ -104,5 +104,22 @@ def string_length(word)
 #-1 for last word 
 #[2:4] for between word
 print("Orange"[5])
-  
+
+
+#Say good morning
+def Speak(name, name2):
+  Talk = "Good Morning" + " " + name + " & " + name2 + "!!!!"
+  return Talk
+
+print Speak("Peter","Gavin")
+
+
+#How many letters are in each name2
+def Speak(name):
+  count = 0
+  for letter in (name):
+      count = count + 1
+  return count
+
+print Speak("Peter")  
   
