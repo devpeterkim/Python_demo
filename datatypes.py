@@ -55,6 +55,37 @@ def biggest(numbers):
 
 print(biggest(invoices))
 
+#Let's filter movies with 7+
+
+our_movies = [("Interstellar",10),("StarWars",6),("Apollo",8.5)]
+
+def rating_filter(movies, max_rating):
+  final_movies = []
+  
+  for movie in movies:
+    if movie[1] >= max_rating:
+        final_movies.append(movie[0])
+        #print(final_movies)
+  return final_movies
+
+print(rating_filter(our_movies,5))
+
+
+people_age = [("George",50),("Bob",6),("Lucy",8),("Mark",25),("John",18),("Tom",87)]
+
+def age_filter(name, max_age):
+  final_age = []
+  
+  for age in name:
+    if age[1] >= max_age:
+      final_age.append(age[0])
+  return final_age
+  
+print(age_filter(people_age,20))
+
+print(people_age)
+    
+
 
 
 
