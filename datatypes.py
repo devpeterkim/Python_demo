@@ -84,6 +84,25 @@ def age_filter(name, max_age):
 print(age_filter(people_age,20))
 
 print(people_age)
+
+
+#intro to dictionaries
+#Dictionaries are also known as Maps or Hash
+
+phone_book = {"John": "555-556-6988", "Billy": "115-556-1118"}
+
+print(phone_book)
+print(phone_book["John"])
+
+
+movies = {"Cars3": 9.3, "Starwars": 8.5}
+print(movies)
+
+
+
+authors = {"Rafeh Qazi": ['b1','cleverprogrammer.com/blog/2','Programming'],"John Sonmez": ['b1','SimpleProgrammer.com','Programming']}
+print authors
+print(authors['John Sonmez'][1])
     
 
 
