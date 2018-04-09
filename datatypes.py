@@ -103,6 +103,37 @@ print(movies)
 authors = {"Rafeh Qazi": ['b1','cleverprogrammer.com/blog/2','Programming'],"John Sonmez": ['b1','SimpleProgrammer.com','Programming']}
 print authors
 print(authors['John Sonmez'][1])
+
+
+#Dictionary + Create Keys + Change Values + Word Frequency Counter
+sentence = "Hey how are you doing? hey hey hey are you doing alright?"
+
+final_dictionary = {}
+
+for word in sentence.split():
+  
+  if word not in final_dictionary:
+    final_dictionary[word] = 1
+  else:
+    final_dictionary[word] = final_dictionary[word] + 1
+    
+print(final_dictionary)
+
+test_sentence = "Hey how are you doing? hey hey hey are you doing alright?"
+
+#Writing in funcction 
+def word_frequencey(sentence):
+  final_dictionary = {}
+  
+  for word in sentence.split():
+    if word not in final_dictionary:
+      final_dictionary[word] = 1
+    else:
+      final_dictionary[word] += 1
+  
+  return final_dictionary
+    
+print(word_frequencey(test_sentence))
     
 
 
