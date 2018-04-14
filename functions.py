@@ -122,4 +122,16 @@ def Speak(name):
   return count
 
 print Speak("Peter")  
+
+#Adding string numbers converting to integers
+'1 2 5 '
+
+numbers = [1,2,5]
+
+count = 0
+
+for number in numbers:
+  count = count + int(number)
+  
+print(count)
   
